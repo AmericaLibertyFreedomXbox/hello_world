@@ -6,7 +6,18 @@ public class hello {
 
         System.out.println("Hello Class!");
 
+        //I literally can't remember java
+        
+		System.out.println("Enter your name");
+		Scanner blah = new Scanner(System.in);
+		
+	     //Something like this
+		
+		int x = blah.nextInt();
+		
         System.out.println("Bye");
+		
+		System.out.println(x);
 
     }
 }
