@@ -13,11 +13,13 @@ public class hello {
 		
 	     //Something like this
 		
-		int x = blah.nextInt();
+		String x = blah.next();
 		
         System.out.println("Bye");
 		
 		System.out.println(x);
+		
+		blah.close();
 
     }
 }
